@@ -8,17 +8,17 @@ The LED outputs and VCC input are designed for terminal blocks, the I2C interfac
 All information found in this page may be changed during the [KICKSTARTER](https://www.kickstarter.com/projects/thebug/led-dimming-done-right-pwm-with-i2c/description) campaign.
 &nbsp;
 
----
+
 &nbsp;
 ## Tested plattforms
 The LW18 is designed to work with any plattform that has an I²C host function. In this repository you can find some sample projects for some of the most popular platforms.  
 
----
+
 &nbsp;
 ## USB to I²C interface
 With the [IO-Warrior Dongles](https://codemercs.com/de/dongles) I²C dongle we deliver our own USB to I²C interfaces. With our SDK you can use the LW18 on Windows, Linux or OSX. For more information please visit out [website](https://www.codemercs.com).
 
----
+
 &nbsp;
 ## Features
 The basic features of the LW18 module:
@@ -31,7 +31,7 @@ The basic features of the LW18 module:
 - Minimal external circuitry
 - 5 V supply
 
----
+
 &nbsp;
 ## Usage
 The LW18 uses the I²C interface for communication. The basic 7-bit I²C address is *0x20*, but can be changed by software. You can use multiple LW18 devices on the same I²C bus (max. 127 devices) by changing the device address.  
@@ -52,7 +52,7 @@ If your platform does not have an I²C host included but has USB you can use our
 
 A detailed description of the registers will be in the datasheet of LW18 which is coming soon.
 
----
+
 &nbsp;
 ## Technical details, maximum ratings and specifications of LED-Warrior18 module
 | Type | Rating |
@@ -65,17 +65,17 @@ A detailed description of the registers will be in the datasheet of LW18 which i
 | Input low voltage | 0.8V max |
 | Input high voltage | 2.1V min |
 
----
+
 &nbsp;
 ## Important Note
 LED-Warrior18 is still under development and can be supported on [KICKSTARTER](https://www.kickstarter.com/projects/thebug/led-dimming-done-right-pwm-with-i2c/description).
 
----
+
 &nbsp;
 ## Known issues
 None
 
----
+
 &nbsp;
 ## Links and further information
 Support this device on [Kickstarter](https://www.kickstarter.com/projects/thebug/led-dimming-done-right-pwm-with-i2c/description).  
