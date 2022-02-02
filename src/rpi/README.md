@@ -1,4 +1,4 @@
-## Code for using LED-Warrior18 with GRIO I2C on Raspberry PI
+## Code for using LED-Warrior18 with GPIO I2C on Raspberry PI
 
 
 In this directory you will find some sample applications for the Raspberry PI I²C interface.  
