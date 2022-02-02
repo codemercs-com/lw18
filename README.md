@@ -48,6 +48,7 @@ If your platform does not have an I²C host included but has USB you can use our
 | 0x02 | 2 | W | 2 channel 8 bit PWM |
 | 0xF0 | 6 | R | Signature |
 | 0xFE | 2 | W | Set I²C address |
+
 &nbsp;
 
 A detailed description of the registers will be in the datasheet of LW18 which is coming soon.
@@ -64,6 +65,10 @@ A detailed description of the registers will be in the datasheet of LW18 which i
 | Supply current (for logic part) | 8 mA max. |
 | Input low voltage | 0.8V max |
 | Input high voltage | 2.1V min |
+
+&nbsp;
+## Device dimensions
+![KW28Eval PCB](lw18-dimensions.png)
 
 
 &nbsp;
