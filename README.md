@@ -46,7 +46,7 @@ If your platform does not have an I²C host included but has USB you can use our
 | 0x00 | 1 | R/W | Command |
 | 0x01 | 4 | R/W | 2 channel 16 bit PWM|
 | 0x02 | 2 | W | 2 channel 8 bit PWM |
-| 0x03 | 4 | W | 2 channel 16 bit for PWM frequency |
+| 0x03 | 4 | W | 2 channel 16 bit for PWM periode |
 | 0xF0 | 6 | R | Signature |
 | 0xFE | 2 | W | Set I²C address |
 
