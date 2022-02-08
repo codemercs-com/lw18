@@ -27,6 +27,7 @@ The basic features of the LW18 module:
 - 2 x 16 bit PWM ranging from 0.0015% to 100%
 - 8 Bit data to log and lin mapping availabe
 - Synch mode for controlling multiple units
+- Broadcast mode
 - Default power on status progammable
 - Minimal external circuitry
 - 5 V supply
@@ -45,13 +46,14 @@ If your platform does not have an I²C host included but has USB you can use our
 | ----------- | ----------- | ----------- | ----------- |
 | 0x00 | 1 | R/W | Command |
 | 0x01 | 4 | R/W | 2 channel 16 bit PWM|
-| 0x02 | 2 | W | 2 channel 8 bit PWM |
+| 0x02 | 2 | W | 2 channel 8 bit PWM (LIN or LOG mode)|
 | 0x03 | 4 | W | 2 channel 16 bit for PWM periode |
 | 0xF0 | 6 | R | Signature |
 | 0xFE | 2 | W | Set I²C address |
 
 &nbsp;
 
+The LED-Warrior18 support linear (LIN) or logarithmic (LOG) conversion for 8 bit input values selected by controll register.  
 A detailed description of the registers will be in the datasheet of LW18 which is coming soon.
 
 
