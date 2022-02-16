@@ -35,7 +35,7 @@ All supported IO-Warrior devices listed as **'usb:v< VendorID >p< ProductID >d..
 
 ## Install iowkit API
 
-To install the *'libiowkit'* on Linux you have to download the latest API from our [website]([http://](https://codemercs.com/downloads/iowarrior/IO-Warrior_SDK_linux.zip) and compile the iowkit API on your system.  
+To install the *'libiowkit'* on Linux you have to download the latest API from our [website](https://www.codemercs.com/downloads/iowarrior/IO-Warrior_SDK_linux.zip) and compile the iowkit API on your system.  
 Unzip the file and navigate into the *'libiowkit-1.7.0'* directory and run to following commands:  
 ```
 ./configure  
