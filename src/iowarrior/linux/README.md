@@ -35,17 +35,18 @@ All supported IO-Warrior devices listed as **'usb:v< VendorID >p< ProductID >d..
 
 ## Install iowkit API
 
-To install the *'libiowkit'* on Linux you have to download the latest API from our [website]([http://](https://codemercs.com/downloads/iowarrior/IO-Warrior_SDK_linux.zip)) and compile the iowkit API on you system.  
+To install the *'libiowkit'* on Linux you have to download the latest API from our [website]([http://](https://codemercs.com/downloads/iowarrior/IO-Warrior_SDK_linux.zip)) and compile the iowkit API on your system.  
 Unzip the file and navigate into the *'libiowkit-1.7.0'* directory and run to following commands:  
 ```
 ./configure  
 make  
 sudo make install  
 ```
-After the  installation you have to add a rule to have access to the IO-Warior without any root permissions.  
-&nbsp;
+
 
 ## Add rules for access without root permissions (sudo)
+After the installation a file must be created to get access to the IO-Warior without any root permissions.  
+&nbsp;
 
 Add a new rules into '/etc/udev/rules.d/':  
 ```
