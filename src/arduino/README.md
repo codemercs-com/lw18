@@ -1,0 +1,1 @@
+The sample codes was build and tested with an *Arduino UNO*.
