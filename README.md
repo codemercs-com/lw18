@@ -87,5 +87,5 @@ None
 &nbsp;
 ## Links and further information
 Support this device on [Kickstarter](https://www.kickstarter.com/projects/thebug/led-dimming-done-right-pwm-with-i2c/description).  
-[Datasheet](https://codemercs.com/downloads/ledwarrior/LW18_Datasheet.pdf) for the LED-Warrior18.
+[Datasheet](https://codemercs.com/downloads/ledwarrior/LW18_Datasheet.pdf) for the LED-Warrior18.  
 [Company site](https://www.codemercs.com) for information on more devices.
