@@ -76,7 +76,7 @@ A detailed description of the registers will be in the datasheet of LW18 which i
 
 &nbsp;
 ## Important Note
-LED-Warrior18 is still under development and can be supported on [KICKSTARTER](https://www.kickstarter.com/projects/thebug/led-dimming-done-right-pwm-with-i2c/description).
+None
 
 
 &nbsp;
@@ -87,5 +87,5 @@ None
 &nbsp;
 ## Links and further information
 Support this device on [Kickstarter](https://www.kickstarter.com/projects/thebug/led-dimming-done-right-pwm-with-i2c/description).  
-Datasheet for the LED-Warrior18 is coming soon.  
+[Datasheet](https://codemercs.com/downloads/ledwarrior/LW18_Datasheet.pdf) for the LED-Warrior18.
 [Company site](https://www.codemercs.com) for information on more devices.
